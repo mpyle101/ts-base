@@ -1,11 +1,11 @@
 {
-    "name": "jester",
-    "version": "1.0.0",
-    "main": "./dist/src/index.js",
+    "name": "ts-base",
+    "version": "0.0.1",
+    "main": "./dist/main.js",
     "scripts": {
         "build": "tsc",
         "clean": "rm -rf ./dist",
-        "exec": "node ./dist/app.js",
+        "exec": "node ./dist/main.js",
         "lint": "eslint ./src/**/*.ts",
         "lint:fix": "eslint --fix --quiet ./src/**/*.ts",
         "start": "npm run build && npm run exec",
